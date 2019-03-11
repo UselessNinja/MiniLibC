@@ -12,15 +12,15 @@ LIBFLAGS =		-fPIC -shared
 LIBNAME =		libasm.so
 RM =			rm -f
 SRC =			src/strlen.asm	\
-				src/strchr.asm	\
-				src/memset.asm	\
-				src/memcpy.asm	\
-				src/strcmp.asm	\
-				src/memmove.asm	\
-				src/strncmp.asm	\
-				src/rindex.asm	\
-				src/strpbrk.asm	\
-				src/strcspn.asm
+			src/strchr.asm	\
+			src/memset.asm	\
+			src/memcpy.asm	\
+			src/strcmp.asm	\
+			src/memmove.asm	\
+			src/strncmp.asm	\
+			src/rindex.asm	\
+			src/strpbrk.asm	\
+			src/strcspn.asm
 
 all: $(LIBNAME)
 
